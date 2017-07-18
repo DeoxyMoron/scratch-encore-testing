@@ -16,7 +16,8 @@ except ImportError:
 
 # If modifying these scopes, delete your previously saved credentials
 # at ~/.credentials/classroom.googleapis.com-python-quickstart.json
-SCOPES = 'https://www.googleapis.com/auth/classroom.courses.readonly'
+SCOPES = ['https://www.googleapis.com/auth/classroom.courses.readonly',
+          'https://www.googleapis.com/auth/classroom.coursework.students']
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Classroom API Python Quickstart'
 
@@ -34,8 +35,8 @@ def get_credentials():
     credential_dir = os.path.join(home_dir, '.credentials')
     if not os.path.exists(credential_dir):
         os.makedirs(credential_dir)
-    credential_path = os.path.join(credential_dir,
-                                   'classroom.googleapis.com-python-quickstart.json')
+    credential_path = os.path.join(
+        credential_dir, 'classroom.googleapis.com-python-quickstart.json')
 
     store = Storage(credential_path)
     credentials = store.get()
@@ -44,10 +45,11 @@ def get_credentials():
         flow.user_agent = APPLICATION_NAME
         if flags:
             credentials = tools.run_flow(flow, store, flags)
-        else: # Needed only for compatibility with Python 2.6
+        else:  # Needed only for compatibility with Python 2.6
             credentials = tools.run(flow, store)
         print('Storing credentials to ' + credential_path)
     return credentials
+
 
 def main():
     """Shows basic usage of the Classroom API.
@@ -69,24 +71,15 @@ def main():
         for course in courses:
             print(course['name'])
 
-    createAssignment(service)
 
-def createAssignment(s):
-    courseWork = {  
-  'title': 'Ant colonies',  
-  'description': 'Read the article about ant colonies and complete the quiz.',  
-  'materials': [  
-     {'link': { 'url': 'http://example.com/ant-colonies' }},  
-     {'link': { 'url': 'http://example.com/ant-quiz' }}  
-    ],  
-      'workType': 'ASSIGNMENT',  
-      'state': 'PUBLISHED',  
-    }  
-    courseWork = s.courses().courseWork().create(  
-        courseId='<course ID or alias>', body=courseWork).execute()  
-    print('Assignment created with ID {0}'.format(courseWork.get('id')))
+def getService():
+    """Creates and returns a service Object"""
+    credentials = get_credentials()
+    http = credentials.authorize(httplib2.Http())
+    service = discovery.build('classroom', 'v1', http=http)
+
+    return service
 
 
 if __name__ == '__main__':
     main()
-
