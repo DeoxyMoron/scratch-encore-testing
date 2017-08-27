@@ -26,3 +26,71 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sat Aug 26 19:33:58.597074 2017] [mpm_winnt:notice] [pid 100212:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sat Aug 26 19:34:00.598188 2017] [mpm_winnt:notice] [pid 100024:tid 252] AH00364: Child: All worker threads have exited.
 [Sat Aug 26 19:34:00.619189 2017] [mpm_winnt:notice] [pid 100212:tid 240] AH00430: Parent: Child process 100024 exited successfully.
+[Sat Aug 26 19:41:10.904800 2017] [ssl:warn] [pid 14064:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 19:41:11.051809 2017] [ssl:warn] [pid 14064:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 19:41:11.067810 2017] [mpm_winnt:notice] [pid 14064:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sat Aug 26 19:41:11.067810 2017] [mpm_winnt:notice] [pid 14064:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sat Aug 26 19:41:11.067810 2017] [core:notice] [pid 14064:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/David_Dev/Downloads/scratch-encore-testing-master/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sat Aug 26 19:41:11.068810 2017] [mpm_winnt:notice] [pid 14064:tid 240] AH00418: Parent: Created child process 100236
+[Sat Aug 26 19:41:11.488834 2017] [ssl:warn] [pid 100236:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 19:41:11.614841 2017] [ssl:warn] [pid 100236:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 19:41:11.627842 2017] [mpm_winnt:notice] [pid 100236:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 26 19:42:34.660591 2017] [mpm_winnt:notice] [pid 14064:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 26 19:42:36.660705 2017] [mpm_winnt:notice] [pid 100236:tid 252] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 19:42:36.682707 2017] [mpm_winnt:notice] [pid 14064:tid 240] AH00430: Parent: Child process 100236 exited successfully.
+[Sat Aug 26 19:42:51.075530 2017] [ssl:warn] [pid 99564:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 19:42:51.220538 2017] [ssl:warn] [pid 99564:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 19:42:51.232539 2017] [mpm_winnt:notice] [pid 99564:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sat Aug 26 19:42:51.232539 2017] [mpm_winnt:notice] [pid 99564:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sat Aug 26 19:42:51.232539 2017] [core:notice] [pid 99564:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sat Aug 26 19:42:51.233539 2017] [mpm_winnt:notice] [pid 99564:tid 240] AH00418: Parent: Created child process 95632
+[Sat Aug 26 19:42:51.617561 2017] [ssl:warn] [pid 95632:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 19:42:51.873575 2017] [ssl:warn] [pid 95632:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 19:42:51.885576 2017] [mpm_winnt:notice] [pid 95632:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 26 19:50:27.294624 2017] [mpm_winnt:notice] [pid 99564:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 26 19:50:29.294738 2017] [mpm_winnt:notice] [pid 95632:tid 252] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 19:50:29.318740 2017] [mpm_winnt:notice] [pid 99564:tid 240] AH00430: Parent: Child process 95632 exited successfully.
+[Sat Aug 26 19:50:45.098642 2017] [ssl:warn] [pid 99996:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 19:50:45.259652 2017] [ssl:warn] [pid 99996:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 19:50:45.306654 2017] [mpm_winnt:notice] [pid 99996:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sat Aug 26 19:50:45.306654 2017] [mpm_winnt:notice] [pid 99996:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sat Aug 26 19:50:45.306654 2017] [core:notice] [pid 99996:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sat Aug 26 19:50:45.307654 2017] [mpm_winnt:notice] [pid 99996:tid 240] AH00418: Parent: Created child process 99152
+[Sat Aug 26 19:50:45.721678 2017] [ssl:warn] [pid 99152:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 19:50:45.870687 2017] [ssl:warn] [pid 99152:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 19:50:45.882687 2017] [mpm_winnt:notice] [pid 99152:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 26 19:57:32.727957 2017] [mpm_winnt:notice] [pid 99996:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 26 19:57:34.729072 2017] [mpm_winnt:notice] [pid 99152:tid 252] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 19:57:34.771074 2017] [mpm_winnt:notice] [pid 99996:tid 240] AH00430: Parent: Child process 99152 exited successfully.
+[Sat Aug 26 19:57:45.710700 2017] [ssl:warn] [pid 100844:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 19:57:45.857708 2017] [ssl:warn] [pid 100844:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 19:57:45.868709 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sat Aug 26 19:57:45.868709 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sat Aug 26 19:57:45.868709 2017] [core:notice] [pid 100844:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sat Aug 26 19:57:45.879710 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00418: Parent: Created child process 86432
+[Sat Aug 26 19:57:46.267732 2017] [ssl:warn] [pid 86432:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 19:57:46.394739 2017] [ssl:warn] [pid 86432:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 19:57:46.406740 2017] [mpm_winnt:notice] [pid 86432:tid 252] AH00354: Child: Starting 150 worker threads.
+zend_mm_heap corrupted
+[Sat Aug 26 22:22:49.509529 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00428: Parent: child process 86432 exited with status 1 -- Restarting.
+[Sat Aug 26 22:22:50.087562 2017] [ssl:warn] [pid 100844:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 22:22:50.333576 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sat Aug 26 22:22:50.333576 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sat Aug 26 22:22:50.333576 2017] [core:notice] [pid 100844:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sat Aug 26 22:22:50.335576 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00418: Parent: Created child process 105012
+[Sat Aug 26 22:22:50.790602 2017] [ssl:warn] [pid 105012:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 22:22:50.914609 2017] [ssl:warn] [pid 105012:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 22:22:50.926610 2017] [mpm_winnt:notice] [pid 105012:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 26 22:53:10.110661 2017] [:error] [pid 105012:tid 1604] [client ::1:51671] Default exception handler: XML database file errors found Debug: File does not exist\r\nError code: ddlxmlfileerror\n* line 344 of \\lib\\ddl\\database_manager.php: ddl_exception thrown\n* line 368 of \\lib\\ddl\\database_manager.php: call to database_manager->load_xmldb_file()\n* line 702 of \\lib\\upgradelib.php: call to database_manager->install_from_xmldb_file()\n* line 444 of \\lib\\upgradelib.php: call to upgrade_plugins_modules()\n* line 1754 of \\lib\\upgradelib.php: call to upgrade_plugins()\n* line 699 of \\admin\\index.php: call to upgrade_noncore()\n, referer: http://localhost/admin/index.php?cache=0&confirmplugincheck=0
+[Sat Aug 26 22:54:05.459827 2017] [:error] [pid 105012:tid 1612] [client ::1:52040] Default exception handler: Plugin "mod_newmodule" is defective or outdated, can not continue, sorry. Debug: Missing $plugin->version number in version.php.\r\nError code: detectedbrokenplugin\n* line 643 of \\lib\\upgradelib.php: plugin_defective_exception thrown\n* line 444 of \\lib\\upgradelib.php: call to upgrade_plugins_modules()\n* line 1754 of \\lib\\upgradelib.php: call to upgrade_plugins()\n* line 699 of \\admin\\index.php: call to upgrade_noncore()\n, referer: http://localhost/admin/index.php?cache=0&confirmplugincheck=0
+[Sat Aug 26 23:03:04.158639 2017] [:error] [pid 105012:tid 1604] [client ::1:55044] Default exception handler: Plugin "mod_scratchencore" is defective or outdated, can not continue, sorry. Debug: Missing $plugin->version number in version.php.\r\nError code: detectedbrokenplugin\n* line 643 of \\lib\\upgradelib.php: plugin_defective_exception thrown\n* line 444 of \\lib\\upgradelib.php: call to upgrade_plugins_modules()\n* line 1754 of \\lib\\upgradelib.php: call to upgrade_plugins()\n* line 699 of \\admin\\index.php: call to upgrade_noncore()\n, referer: http://localhost/admin/index.php
