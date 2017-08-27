@@ -290,3 +290,11 @@ InnoDB: directories yourself, InnoDB does not create them.
 2017-08-26 19:25:35 12180 [Note] Server socket created on IP: '::'.
 2017-08-26 19:25:35 12180 [Note] mysql\bin\mysqld.exe: ready for connections.
 Version: '10.1.16-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-08-26 19:33:58 15760 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+2017-08-26 19:33:58 15760 [Note] Event Scheduler: Purging the queue. 0 events
+2017-08-26 19:33:58 98616 [Note] InnoDB: FTS optimize thread exiting.
+2017-08-26 19:33:58 15760 [Note] InnoDB: Starting shutdown...
+2017-08-26 19:34:00 15760 [Note] InnoDB: Shutdown completed; log sequence number 9435961
+2017-08-26 19:34:00 15760 [Note] mysql\bin\mysqld.exe: Shutdown complete
+

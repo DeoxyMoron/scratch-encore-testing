@@ -23,3 +23,6 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sat Aug 26 19:25:36.024328 2017] [ssl:warn] [pid 100024:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sat Aug 26 19:25:36.037329 2017] [mpm_winnt:notice] [pid 100024:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 26 19:33:58.597074 2017] [mpm_winnt:notice] [pid 100212:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 26 19:34:00.598188 2017] [mpm_winnt:notice] [pid 100024:tid 252] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 19:34:00.619189 2017] [mpm_winnt:notice] [pid 100212:tid 240] AH00430: Parent: Child process 100024 exited successfully.
