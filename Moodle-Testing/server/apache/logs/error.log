@@ -1,0 +1,25 @@
+[Sat Aug 26 16:27:46.545069 2017] [ssl:warn] [pid 11124:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 16:27:46.690077 2017] [ssl:warn] [pid 11124:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 16:27:46.725079 2017] [mpm_winnt:notice] [pid 11124:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sat Aug 26 16:27:46.725079 2017] [mpm_winnt:notice] [pid 11124:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sat Aug 26 16:27:46.725079 2017] [core:notice] [pid 11124:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sat Aug 26 16:27:46.726079 2017] [mpm_winnt:notice] [pid 11124:tid 240] AH00418: Parent: Created child process 92408
+[Sat Aug 26 16:27:47.598129 2017] [ssl:warn] [pid 92408:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 16:27:48.128159 2017] [ssl:warn] [pid 92408:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 16:27:48.140160 2017] [mpm_winnt:notice] [pid 92408:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 26 19:25:21.067473 2017] [mpm_winnt:notice] [pid 11124:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 26 19:25:23.067587 2017] [mpm_winnt:notice] [pid 92408:tid 252] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 19:25:23.099589 2017] [mpm_winnt:notice] [pid 11124:tid 240] AH00430: Parent: Child process 92408 exited successfully.
+[Sat Aug 26 19:25:35.406293 2017] [ssl:warn] [pid 100212:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 19:25:35.537300 2017] [ssl:warn] [pid 100212:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 19:25:35.548301 2017] [mpm_winnt:notice] [pid 100212:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sat Aug 26 19:25:35.548301 2017] [mpm_winnt:notice] [pid 100212:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sat Aug 26 19:25:35.548301 2017] [core:notice] [pid 100212:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sat Aug 26 19:25:35.549301 2017] [mpm_winnt:notice] [pid 100212:tid 240] AH00418: Parent: Created child process 100024
+[Sat Aug 26 19:25:35.904321 2017] [ssl:warn] [pid 100024:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 19:25:36.024328 2017] [ssl:warn] [pid 100024:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 19:25:36.037329 2017] [mpm_winnt:notice] [pid 100024:tid 252] AH00354: Child: Starting 150 worker threads.

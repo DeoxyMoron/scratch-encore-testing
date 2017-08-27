@@ -1,4 +1,4 @@
-#!\xampp\php\.\php.exe
+#!D:\Projects\ScratchEncore\scratch-encore-testing\Moodle-Testing\server\php\.\php.exe
 <?php
 /**
  * Get the Compatibility info from PHP CLI
