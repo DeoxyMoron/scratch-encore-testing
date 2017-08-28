@@ -22,6 +22,9 @@ curl_close($ch);
 //echo $result;
 $json = json_decode($result, true);
 echo $json['title'];
+echo $json['image'];
+$imageurl = $json['image'];
+echo "<img src='{$imageurl}'>"
 //echo 'aaaaaaaaaaa\r\n';
 //echo "<pre>"; print_r($result); die;
 //$test = file_get_contents("https://api.scratch.mit.edu/users/djsanosa/projects/169189283");
