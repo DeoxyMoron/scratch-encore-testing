@@ -28,6 +28,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['foo'] = 'bar'
 $string['modulename'] = 'scratchencore';
 $string['modulenameplural'] = 'scratchencores';
 $string['modulename_help'] = 'Use the scratchencore module for... | The scratchencore module allows...';

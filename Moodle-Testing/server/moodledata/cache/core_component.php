@@ -273,6 +273,7 @@ $cache = array (
       'section_links' => 'D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle/blocks/section_links',
       'selfcompletion' => 'D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle/blocks/selfcompletion',
       'settings' => 'D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle/blocks/settings',
+      'simple_clock' => 'D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle/blocks/simple_clock',
       'site_main_menu' => 'D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle/blocks/site_main_menu',
       'social_activities' => 'D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle/blocks/social_activities',
       'tag_flickr' => 'D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle/blocks/tag_flickr',

@@ -94,3 +94,89 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sat Aug 26 22:53:10.110661 2017] [:error] [pid 105012:tid 1604] [client ::1:51671] Default exception handler: XML database file errors found Debug: File does not exist\r\nError code: ddlxmlfileerror\n* line 344 of \\lib\\ddl\\database_manager.php: ddl_exception thrown\n* line 368 of \\lib\\ddl\\database_manager.php: call to database_manager->load_xmldb_file()\n* line 702 of \\lib\\upgradelib.php: call to database_manager->install_from_xmldb_file()\n* line 444 of \\lib\\upgradelib.php: call to upgrade_plugins_modules()\n* line 1754 of \\lib\\upgradelib.php: call to upgrade_plugins()\n* line 699 of \\admin\\index.php: call to upgrade_noncore()\n, referer: http://localhost/admin/index.php?cache=0&confirmplugincheck=0
 [Sat Aug 26 22:54:05.459827 2017] [:error] [pid 105012:tid 1612] [client ::1:52040] Default exception handler: Plugin "mod_newmodule" is defective or outdated, can not continue, sorry. Debug: Missing $plugin->version number in version.php.\r\nError code: detectedbrokenplugin\n* line 643 of \\lib\\upgradelib.php: plugin_defective_exception thrown\n* line 444 of \\lib\\upgradelib.php: call to upgrade_plugins_modules()\n* line 1754 of \\lib\\upgradelib.php: call to upgrade_plugins()\n* line 699 of \\admin\\index.php: call to upgrade_noncore()\n, referer: http://localhost/admin/index.php?cache=0&confirmplugincheck=0
 [Sat Aug 26 23:03:04.158639 2017] [:error] [pid 105012:tid 1604] [client ::1:55044] Default exception handler: Plugin "mod_scratchencore" is defective or outdated, can not continue, sorry. Debug: Missing $plugin->version number in version.php.\r\nError code: detectedbrokenplugin\n* line 643 of \\lib\\upgradelib.php: plugin_defective_exception thrown\n* line 444 of \\lib\\upgradelib.php: call to upgrade_plugins_modules()\n* line 1754 of \\lib\\upgradelib.php: call to upgrade_plugins()\n* line 699 of \\admin\\index.php: call to upgrade_noncore()\n, referer: http://localhost/admin/index.php
+[Sat Aug 26 23:51:51.583078 2017] [:error] [pid 105012:tid 1620] [client ::1:53212] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\view.php on line 84, referer: http://localhost/course/view.php?id=3
+zend_mm_heap corrupted
+[Sat Aug 26 23:53:55.036139 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00428: Parent: child process 105012 exited with status 3221225477 -- Restarting.
+[Sat Aug 26 23:53:55.668175 2017] [ssl:warn] [pid 100844:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 23:53:55.827184 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sat Aug 26 23:53:55.828184 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sat Aug 26 23:53:55.828184 2017] [core:notice] [pid 100844:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sat Aug 26 23:53:55.828184 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00418: Parent: Created child process 118288
+[Sat Aug 26 23:53:56.458220 2017] [ssl:warn] [pid 118288:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 26 23:53:56.650231 2017] [ssl:warn] [pid 118288:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sat Aug 26 23:53:56.684233 2017] [mpm_winnt:notice] [pid 118288:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 26 23:54:34.359388 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 26 23:54:36.430507 2017] [mpm_winnt:notice] [pid 118288:tid 252] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 23:54:36.620518 2017] [mpm_winnt:notice] [pid 100844:tid 240] AH00430: Parent: Child process 118288 exited successfully.
+[Sun Aug 27 00:44:15.858920 2017] [ssl:warn] [pid 120440:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 27 00:44:16.319947 2017] [ssl:warn] [pid 120440:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Aug 27 00:44:23.195340 2017] [mpm_winnt:notice] [pid 120440:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sun Aug 27 00:44:23.195340 2017] [mpm_winnt:notice] [pid 120440:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sun Aug 27 00:44:23.195340 2017] [core:notice] [pid 120440:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sun Aug 27 00:44:23.214341 2017] [mpm_winnt:notice] [pid 120440:tid 240] AH00418: Parent: Created child process 119284
+[Sun Aug 27 00:44:25.878493 2017] [ssl:warn] [pid 119284:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 27 00:44:26.133508 2017] [ssl:warn] [pid 119284:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Aug 27 00:44:26.892551 2017] [mpm_winnt:notice] [pid 119284:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 27 00:46:16.000792 2017] [mpm_winnt:notice] [pid 120440:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Aug 27 00:46:18.001906 2017] [mpm_winnt:notice] [pid 119284:tid 252] AH00364: Child: All worker threads have exited.
+[Sun Aug 27 00:46:18.040909 2017] [mpm_winnt:notice] [pid 120440:tid 240] AH00430: Parent: Child process 119284 exited successfully.
+[Sun Aug 27 00:46:37.688032 2017] [ssl:warn] [pid 118680:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 27 00:46:37.882043 2017] [ssl:warn] [pid 118680:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Aug 27 00:46:37.987049 2017] [mpm_winnt:notice] [pid 118680:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sun Aug 27 00:46:37.987049 2017] [mpm_winnt:notice] [pid 118680:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sun Aug 27 00:46:37.987049 2017] [core:notice] [pid 118680:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sun Aug 27 00:46:37.988050 2017] [mpm_winnt:notice] [pid 118680:tid 240] AH00418: Parent: Created child process 83676
+[Sun Aug 27 00:46:38.612085 2017] [ssl:warn] [pid 83676:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 27 00:46:38.833098 2017] [ssl:warn] [pid 83676:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Aug 27 00:46:38.854099 2017] [mpm_winnt:notice] [pid 83676:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 27 01:36:48.990042 2017] [mpm_winnt:notice] [pid 118680:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Aug 27 01:36:50.991156 2017] [mpm_winnt:notice] [pid 83676:tid 252] AH00364: Child: All worker threads have exited.
+[Sun Aug 27 01:36:51.422181 2017] [mpm_winnt:notice] [pid 118680:tid 240] AH00430: Parent: Child process 83676 exited successfully.
+[Sun Aug 27 16:39:41.807549 2017] [ssl:warn] [pid 156932:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 27 16:39:42.019562 2017] [ssl:warn] [pid 156932:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Aug 27 16:39:43.958672 2017] [mpm_winnt:notice] [pid 156932:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sun Aug 27 16:39:43.958672 2017] [mpm_winnt:notice] [pid 156932:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sun Aug 27 16:39:43.958672 2017] [core:notice] [pid 156932:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sun Aug 27 16:39:43.959673 2017] [mpm_winnt:notice] [pid 156932:tid 240] AH00418: Parent: Created child process 155620
+[Sun Aug 27 16:39:44.435700 2017] [ssl:warn] [pid 155620:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 27 16:39:44.575708 2017] [ssl:warn] [pid 155620:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Aug 27 16:39:44.645712 2017] [mpm_winnt:notice] [pid 155620:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 27 16:53:25.317652 2017] [mpm_winnt:notice] [pid 156932:tid 240] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Aug 27 16:53:27.318766 2017] [mpm_winnt:notice] [pid 155620:tid 252] AH00364: Child: All worker threads have exited.
+[Sun Aug 27 16:53:27.342767 2017] [mpm_winnt:notice] [pid 156932:tid 240] AH00430: Parent: Child process 155620 exited successfully.
+[Sun Aug 27 16:53:47.298909 2017] [ssl:warn] [pid 157880:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 27 16:53:47.503921 2017] [ssl:warn] [pid 157880:tid 240] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Aug 27 16:53:47.666930 2017] [mpm_winnt:notice] [pid 157880:tid 240] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.9 configured -- resuming normal operations
+[Sun Aug 27 16:53:47.666930 2017] [mpm_winnt:notice] [pid 157880:tid 240] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Sun Aug 27 16:53:47.666930 2017] [core:notice] [pid 157880:tid 240] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/Projects/ScratchEncore/scratch-encore-testing/Moodle-Testing/server/apache -f conf\\httpd.conf'
+[Sun Aug 27 16:53:48.266964 2017] [mpm_winnt:notice] [pid 157880:tid 240] AH00418: Parent: Created child process 156716
+[Sun Aug 27 16:53:48.865998 2017] [ssl:warn] [pid 156716:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 27 16:53:49.142014 2017] [ssl:warn] [pid 156716:tid 252] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Aug 27 16:53:49.341026 2017] [mpm_winnt:notice] [pid 156716:tid 252] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 27 17:51:12.068938 2017] [:error] [pid 156716:tid 1668] [client ::1:62390] PHP Notice:  Undefined variable: OUTPUT in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:51:12.068938 2017] [:error] [pid 156716:tid 1668] [client ::1:62390] PHP Fatal error:  Uncaught Error: Call to a member function heading() on null in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php:2\nStack trace:\n#0 {main}\n  thrown in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:01.097743 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Notice:  Undefined variable: OUTPUT in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:01.097743 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Fatal error:  Uncaught Error: Call to a member function heading() on null in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php:2\nStack trace:\n#0 {main}\n  thrown in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:02.568827 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Notice:  Undefined variable: OUTPUT in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:02.568827 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Fatal error:  Uncaught Error: Call to a member function heading() on null in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php:2\nStack trace:\n#0 {main}\n  thrown in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:03.487879 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Notice:  Undefined variable: OUTPUT in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:03.488879 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Fatal error:  Uncaught Error: Call to a member function heading() on null in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php:2\nStack trace:\n#0 {main}\n  thrown in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:05.134974 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Notice:  Undefined variable: OUTPUT in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:05.135974 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Fatal error:  Uncaught Error: Call to a member function heading() on null in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php:2\nStack trace:\n#0 {main}\n  thrown in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:09.932248 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Notice:  Undefined variable: OUTPUT in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:09.932248 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Fatal error:  Uncaught Error: Call to a member function heading() on null in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php:2\nStack trace:\n#0 {main}\n  thrown in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:10.941306 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Notice:  Undefined variable: OUTPUT in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 17:52:10.942306 2017] [:error] [pid 156716:tid 1664] [client ::1:62658] PHP Fatal error:  Uncaught Error: Call to a member function heading() on null in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php:2\nStack trace:\n#0 {main}\n  thrown in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 2
+[Sun Aug 27 23:39:30.885282 2017] [:error] [pid 156716:tid 1656] [client ::1:50062] PHP Parse error:  syntax error, unexpected '$cURL' (T_VARIABLE) in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 4
+[Sun Aug 27 23:48:16.330336 2017] [:error] [pid 156716:tid 1656] [client ::1:53432] PHP Notice:  Array to string conversion in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 23
+[Sun Aug 27 23:48:31.241189 2017] [:error] [pid 156716:tid 1668] [client ::1:53542] PHP Notice:  Array to string conversion in D:\\Projects\\ScratchEncore\\scratch-encore-testing\\Moodle-Testing\\server\\moodle\\mod\\scratchencore\\test.php on line 23

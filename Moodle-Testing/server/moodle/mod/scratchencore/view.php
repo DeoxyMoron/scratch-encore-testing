@@ -77,7 +77,11 @@ if ($scratchencore->intro) {
 }
 
 // Replace the following lines with you own code.
-echo $OUTPUT->heading('Yay! It works!');
-
+echo $OUTPUT->heading('Yay! It totally works!');
+//$test = file_get_contents("https://api.scratch.mit.edu/users/djsanosa/projects/169189283");
+//echo $test;
 // Finish the page.
+// File: /mod/mymodulename/view.php
+
+// The rest of your code goes below this.
 echo $OUTPUT->footer();
